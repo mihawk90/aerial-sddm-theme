@@ -236,7 +236,7 @@ Rectangle {
                     font.bold: true
                     font.pixelSize: 16
                     color: "white"
-                    text: "Username"
+                    text: textConstants.userName
                     anchors.verticalCenter: parent.verticalCenter
                 }
 
@@ -525,4 +525,3 @@ Rectangle {
         clear_passwd_button.visible = false
     }
 }
-
