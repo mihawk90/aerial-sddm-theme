@@ -72,7 +72,7 @@ Item {
                     0,         0,         intensity, 0,
                     0,         0,         0,         1
                 ));
-    
+
 
         fragmentShader: "
             uniform mediump mat4 colorMatrix;
@@ -128,13 +128,13 @@ Item {
                 NumberAnimation {
                     target: mainStack
                     property: "opacity"
-                    duration: units.longDuration
+                    duration: 500
                     easing.type: Easing.InOutQuad
                 }
                 NumberAnimation {
                     target: footer
                     property: "opacity"
-                    duration: units.longDuration
+                    duration: 500
                     easing.type: Easing.InOutQuad
                 }
             }
